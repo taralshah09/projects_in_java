@@ -249,47 +249,47 @@ public class Main {
                 System.out.print("Enter the currency you want it to be converted : ");
                 choice2 = scanner.nextInt();
                 System.out.println();
-                System.out.print("INR : ");
-                inr = scanner.nextInt();
+                System.out.print("CAD : ");
+                cad = scanner.nextInt();
 
-                if (choice2 == 2) {
-                    usd = inr / 83;
-                    System.out.printf("USD : %.2f", usd);
+                if (choice2 == 1) {
+                   inr = (float) (cad * 61.46);
+                    System.out.printf("USD : %.2f", inr);
                 }
+                else if (choice2 == 2) {
+                usd = (float) (cad * 0.74);
+                System.out.printf("USD : %.2f", usd);
+            }
                 else if (choice2 == 3) {
-                    eur = inr / 90;
+                    eur = (float) (cad * 0.68);
                     System.out.printf("EUR : %.2f", eur);
                 }
                 else if (choice2 == 4) {
-                    gbp = inr / 105;
+                    gbp = (float) (cad * 0.74);
                     System.out.printf("GBP : %.2f",gbp);
                 }
-                else if (choice2 == 5) {
-                    cad = inr / 61;
-                    System.out.printf("CAD : %.2f", cad);
-                }
                 else if (choice2 == 6) {
-                    aud = inr / 54;
+                    aud = (float) (cad * 0.58);
                     System.out.printf("AUD : %.2f", aud);
                 }
                 else if (choice2 == 7) {
-                    jpy = (float) (inr / 0.55);
+                    jpy = (float) (cad * 111.58);
                     System.out.printf("JPY : %.2f", jpy);
                 }
                 else if (choice2 == 8) {
-                    cny = (float) (inr / 11.5);
+                    cny = (float) (cad * 5.84);
                     System.out.printf("CNY : %.2f", cny);
                 }
                 else if (choice2 == 9) {
-                    chf = inr / 91;
+                    chf = (float) (cad * 0.65);
                     System.out.printf("CHF : %.2f", chf);
                 }
                 else if (choice2 == 10) {
-                    sgd = inr / 62;
+                    sgd = (float) (cad * 1);
                     System.out.printf("SGD : %.2f", sgd);
                 }
                 else if (choice2 == 11) {
-                    aed = (float) (inr / 22.5);
+                    aed = (float) (cad *2.72);
                     System.out.printf("AED : %.2f", aed);
                 }
                 else{
@@ -301,47 +301,47 @@ public class Main {
                 System.out.print("Enter the currency you want it to be converted : ");
                 choice2 = scanner.nextInt();
                 System.out.println();
-                System.out.print("INR : ");
-                inr = scanner.nextInt();
+                System.out.print("AUD : ");
+                aud = scanner.nextInt();
 
-                if (choice2 == 2) {
-                    usd = inr / 83;
+                if (choice2 == 1) {
+                    inr = (float) (aud * 54.33);
+                    System.out.printf("USD : %.2f", inr);
+                }
+                else if (choice2 == 2) {
+                    usd = (float) (aud * 0.66);
                     System.out.printf("USD : %.2f", usd);
                 }
                 else if (choice2 == 3) {
-                    eur = inr / 90;
+                    eur = (float) (aud * 0.6);
                     System.out.printf("EUR : %.2f", eur);
                 }
                 else if (choice2 == 4) {
-                    gbp = inr / 105;
+                    gbp =(float) (aud * 0.52);
                     System.out.printf("GBP : %.2f",gbp);
                 }
                 else if (choice2 == 5) {
-                    cad = inr / 61;
+                    cad = (float) (aud * 0.88);
                     System.out.printf("CAD : %.2f", cad);
                 }
-                else if (choice2 == 6) {
-                    aud = inr / 54;
-                    System.out.printf("AUD : %.2f", aud);
-                }
                 else if (choice2 == 7) {
-                    jpy = (float) (inr / 0.55);
+                    jpy = (float) (aud * 98.66);
                     System.out.printf("JPY : %.2f", jpy);
                 }
                 else if (choice2 == 8) {
-                    cny = (float) (inr / 11.5);
+                    cny = (float) (aud * 4.72);
                     System.out.printf("CNY : %.2f", cny);
                 }
                 else if (choice2 == 9) {
-                    chf = inr / 91;
+                    chf = (float) (aud * 0.58);
                     System.out.printf("CHF : %.2f", chf);
                 }
                 else if (choice2 == 10) {
-                    sgd = inr / 62;
+                    sgd = (float) (aud * 0.88);
                     System.out.printf("SGD : %.2f", sgd);
                 }
                 else if (choice2 == 11) {
-                    aed = (float) (inr / 22.5);
+                    aed = (float) (aud * 2.41);
                     System.out.printf("AED : %.2f", aed);
                 }
                 else{
@@ -353,47 +353,47 @@ public class Main {
                 System.out.print("Enter the currency you want it to be converted : ");
                 choice2 = scanner.nextInt();
                 System.out.println();
-                System.out.print("INR : ");
-                inr = scanner.nextInt();
+                System.out.print("JPY : ");
+                jpy = scanner.nextInt();
 
-                if (choice2 == 2) {
-                    usd = inr / 83;
-                    System.out.printf("USD : %.2f", usd);
+                if (choice2 == 1) {
+                    inr = (float) (jpy * 2.41);
+                    System.out.printf("USD : %.2f", inr);
+                }
+                else if (choice2 == 2) {
+                    usd = (float) (jpy* 0.0066);
+                    System.out.printf("EUR : %.2f", usd);
                 }
                 else if (choice2 == 3) {
-                    eur = inr / 90;
+                    eur =(float) (jpy* 0.0061);
                     System.out.printf("EUR : %.2f", eur);
                 }
                 else if (choice2 == 4) {
-                    gbp = inr / 105;
+                    gbp = (float) (jpy* 0.0052);
                     System.out.printf("GBP : %.2f",gbp);
                 }
                 else if (choice2 == 5) {
-                    cad = inr / 61;
+                    cad = (float) (jpy* 0.009);
                     System.out.printf("CAD : %.2f", cad);
                 }
                 else if (choice2 == 6) {
-                    aud = inr / 54;
+                    aud = (float) (jpy* 0.010);
                     System.out.printf("AUD : %.2f", aud);
                 }
-                else if (choice2 == 7) {
-                    jpy = (float) (inr / 0.55);
-                    System.out.printf("JPY : %.2f", jpy);
-                }
                 else if (choice2 == 8) {
-                    cny = (float) (inr / 11.5);
+                    cny = (float) (jpy* 0.0048);
                     System.out.printf("CNY : %.2f", cny);
                 }
                 else if (choice2 == 9) {
-                    chf = inr / 91;
+                    chf = (float) (jpy* 0.0059);
                     System.out.printf("CHF : %.2f", chf);
                 }
                 else if (choice2 == 10) {
-                    sgd = inr / 62;
+                    sgd =(float) (jpy* 0.0089);
                     System.out.printf("SGD : %.2f", sgd);
                 }
                 else if (choice2 == 11) {
-                    aed = (float) (inr / 22.5);
+                    aed = (float) (jpy * 0.024);
                     System.out.printf("AED : %.2f", aed);
                 }
                 else{
@@ -405,47 +405,48 @@ public class Main {
                 System.out.print("Enter the currency you want it to be converted : ");
                 choice2 = scanner.nextInt();
                 System.out.println();
-                System.out.print("INR : ");
-                inr = scanner.nextInt();
+                System.out.print("CNY : ");
+                cny = scanner.nextInt();
 
-                if (choice2 == 2) {
-                    usd = inr / 83;
+                if (choice2 == 1) {
+                inr = (float)(cny * 11.71) ;
+                    System.out.printf("USD : %.2f", inr);
+                }
+                else if (choice2 == 2) {
+                    usd =(float)(cny * 0.14);
                     System.out.printf("USD : %.2f", usd);
                 }
                 else if (choice2 == 3) {
-                    eur = inr / 90;
+                    eur = (float)(cny * 0.13);
                     System.out.printf("EUR : %.2f", eur);
                 }
                 else if (choice2 == 4) {
-                    gbp = inr / 105;
+                    gbp = (float)(cny * 0.11);
                     System.out.printf("GBP : %.2f",gbp);
                 }
                 else if (choice2 == 5) {
-                    cad = inr / 61;
+                    cad = (float)(cny * 0.19);
                     System.out.printf("CAD : %.2f", cad);
                 }
                 else if (choice2 == 6) {
-                    aud = inr / 54;
+                    aud = (float)(cny * 0.22);
                     System.out.printf("AUD : %.2f", aud);
                 }
                 else if (choice2 == 7) {
-                    jpy = (float) (inr / 0.55);
+                    jpy =(float)(cny * 11.71);
                     System.out.printf("JPY : %.2f", jpy);
                 }
-                else if (choice2 == 8) {
-                    cny = (float) (inr / 11.5);
-                    System.out.printf("CNY : %.2f", cny);
-                }
+
                 else if (choice2 == 9) {
-                    chf = inr / 91;
+                    chf =(float)(cny * 0.12);
                     System.out.printf("CHF : %.2f", chf);
                 }
                 else if (choice2 == 10) {
-                    sgd = inr / 62;
+                    sgd = (float)(cny * 0.19);
                     System.out.printf("SGD : %.2f", sgd);
                 }
                 else if (choice2 == 11) {
-                    aed = (float) (inr / 22.5);
+                    aed = (float)(cny * 0.51);
                     System.out.printf("AED : %.2f", aed);
                 }
                 else{
@@ -458,47 +459,47 @@ public class Main {
                 System.out.print("Enter the currency you want it to be converted : ");
                 choice2 = scanner.nextInt();
                 System.out.println();
-                System.out.print("INR : ");
-                inr = scanner.nextInt();
+                System.out.print("CHF : ");
+                chf = scanner.nextInt();
 
-                if (choice2 == 2) {
-                    usd = inr / 83;
+                if (choice2 == 1) {
+                    inr = (float)(chf * 94.31);
+                    System.out.printf("USD : %.2f", inr);
+                }
+                else  if (choice2 == 2) {
+                    usd =(float)(chf *1.14);
                     System.out.printf("USD : %.2f", usd);
                 }
                 else if (choice2 == 3) {
-                    eur = inr / 90;
+                    eur = (float)(chf * 1.05);;
                     System.out.printf("EUR : %.2f", eur);
                 }
                 else if (choice2 == 4) {
-                    gbp = inr / 105;
+                    gbp = (float)(chf * 0.9);;
                     System.out.printf("GBP : %.2f",gbp);
                 }
                 else if (choice2 == 5) {
-                    cad = inr / 61;
+                    cad =(float)(chf * 1.53);;
                     System.out.printf("CAD : %.2f", cad);
                 }
                 else if (choice2 == 6) {
-                    aud = inr / 54;
+                    aud = (float)(chf * 1.73);;
                     System.out.printf("AUD : %.2f", aud);
                 }
                 else if (choice2 == 7) {
-                    jpy = (float) (inr / 0.55);
+                    jpy = (float)(chf * 170.89);
                     System.out.printf("JPY : %.2f", jpy);
                 }
                 else if (choice2 == 8) {
-                    cny = (float) (inr / 11.5);
+                    cny = (float)(chf * 8.71);;
                     System.out.printf("CNY : %.2f", cny);
                 }
-                else if (choice2 == 9) {
-                    chf = inr / 91;
-                    System.out.printf("CHF : %.2f", chf);
-                }
                 else if (choice2 == 10) {
-                    sgd = inr / 62;
+                    sgd = (float)(chf * 1.53);;
                     System.out.printf("SGD : %.2f", sgd);
                 }
                 else if (choice2 == 11) {
-                    aed = (float) (inr / 22.5);
+                    aed = (float)(chf * 4.71);;
                     System.out.printf("AED : %.2f", aed);
                 }
                 else{
@@ -510,47 +511,47 @@ public class Main {
                 System.out.print("Enter the currency you want it to be converted : ");
                 choice2 = scanner.nextInt();
                 System.out.println();
-                System.out.print("INR : ");
-                inr = scanner.nextInt();
+                System.out.print("SGD : ");
+                sgd = scanner.nextInt();
 
-                if (choice2 == 2) {
-                    usd = inr / 83;
+                if (choice2 == 1) {
+                    inr = (float) (sgd * 61.72);
+                    System.out.printf("USD : %.2f", inr);
+                }
+                else if (choice2 == 2) {
+                    usd = (float) (sgd * 0.74);
                     System.out.printf("USD : %.2f", usd);
                 }
                 else if (choice2 == 3) {
-                    eur = inr / 90;
+                    eur = (float) (sgd * 0.69);
                     System.out.printf("EUR : %.2f", eur);
                 }
                 else if (choice2 == 4) {
-                    gbp = inr / 105;
+                    gbp = (float) (sgd * 0.59);
                     System.out.printf("GBP : %.2f",gbp);
                 }
                 else if (choice2 == 5) {
-                    cad = inr / 61;
+                    cad =(float) (sgd * 1);
                     System.out.printf("CAD : %.2f", cad);
                 }
                 else if (choice2 == 6) {
-                    aud = inr / 54;
+                    aud = (float) (sgd * 1.14);
                     System.out.printf("AUD : %.2f", aud);
                 }
                 else if (choice2 == 7) {
-                    jpy = (float) (inr / 0.55);
+                    jpy = (float) (sgd * 112.05);
                     System.out.printf("JPY : %.2f", jpy);
                 }
                 else if (choice2 == 8) {
-                    cny = (float) (inr / 11.5);
+                    cny = (float) (sgd * 5.36);
                     System.out.printf("CNY : %.2f", cny);
                 }
                 else if (choice2 == 9) {
-                    chf = inr / 91;
+                    chf =(float) (sgd *0.66);
                     System.out.printf("CHF : %.2f", chf);
                 }
-                else if (choice2 == 10) {
-                    sgd = inr / 62;
-                    System.out.printf("SGD : %.2f", sgd);
-                }
                 else if (choice2 == 11) {
-                    aed = (float) (inr / 22.5);
+                    aed = (float) (sgd * 2.73);
                     System.out.printf("AED : %.2f", aed);
                 }
                 else{
@@ -562,48 +563,48 @@ public class Main {
                 System.out.print("Enter the currency you want it to be converted : ");
                 choice2 = scanner.nextInt();
                 System.out.println();
-                System.out.print("INR : ");
-                inr = scanner.nextInt();
+                System.out.print("AED : ");
+                aed = scanner.nextInt();
 
                 if (choice2 == 2) {
-                    usd = inr / 83;
+                   inr = (float)(aed * 22.57);
+                    System.out.printf("USD : %.2f", inr);
+                }
+                else if (choice2 == 2) {
+                    usd =(float)(aed * 0.27);
                     System.out.printf("USD : %.2f", usd);
                 }
                 else if (choice2 == 3) {
-                    eur = inr / 90;
+                    eur = (float)(aed * 0.25);
                     System.out.printf("EUR : %.2f", eur);
                 }
                 else if (choice2 == 4) {
-                    gbp = inr / 105;
+                    gbp = (float)(aed * 0.21);
                     System.out.printf("GBP : %.2f",gbp);
                 }
                 else if (choice2 == 5) {
-                    cad = inr / 61;
+                    cad = (float)(aed * 0.37);
                     System.out.printf("CAD : %.2f", cad);
                 }
                 else if (choice2 == 6) {
-                    aud = inr / 54;
+                    aud = (float)(aed * 0.25);
                     System.out.printf("AUD : %.2f", aud);
                 }
                 else if (choice2 == 7) {
-                    jpy = (float) (inr / 0.55);
+                    jpy = (float)(aed * 40.97);
                     System.out.printf("JPY : %.2f", jpy);
                 }
                 else if (choice2 == 8) {
-                    cny = (float) (inr / 11.5);
+                    cny = (float)(aed * 1.96);
                     System.out.printf("CNY : %.2f", cny);
                 }
                 else if (choice2 == 9) {
-                    chf = inr / 91;
+                    chf = (float)(aed * 0.24);
                     System.out.printf("CHF : %.2f", chf);
                 }
                 else if (choice2 == 10) {
-                    sgd = inr / 62;
+                    sgd = (float)(aed *0.37);
                     System.out.printf("SGD : %.2f", sgd);
-                }
-                else if (choice2 == 11) {
-                    aed = (float) (inr / 22.5);
-                    System.out.printf("AED : %.2f", aed);
                 }
                 else{
                     System.out.println("Oh no! You entered same currencies at both the options!");
