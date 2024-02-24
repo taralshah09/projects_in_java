@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc615779-d495-41fb-8456-1b41ec421b85" name="Changes" comment="change3">
+    <list default="true" id="fc615779-d495-41fb-8456-1b41ec421b85" name="Changes" comment="change4">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency converter/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency converter/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Java Programming on IntelliJ/Projects in Java/currency converter/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Java Programming on IntelliJ/Projects in Java/guess the number game/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -81,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708759631036</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change4">
+      <option name="closed" value="true" />
+      <created>1708759840596</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708759840596</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -100,7 +108,8 @@
     <MESSAGE value="change1" />
     <MESSAGE value="change2" />
     <MESSAGE value="change3" />
-    <option name="LAST_COMMIT_MESSAGE" value="change3" />
+    <MESSAGE value="change4" />
+    <option name="LAST_COMMIT_MESSAGE" value="change4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

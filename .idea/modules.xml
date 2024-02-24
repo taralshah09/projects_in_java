@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Projects in Java.iml" filepath="$PROJECT_DIR$/Projects in Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/currency converter/currency converter.iml" filepath="$PROJECT_DIR$/currency converter/currency converter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guess the number game/guess the number game.iml" filepath="$PROJECT_DIR$/guess the number game/guess the number game.iml" />
     </modules>
   </component>
 </project>
