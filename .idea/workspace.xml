@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc615779-d495-41fb-8456-1b41ec421b85" name="Changes" comment="change2">
+    <list default="true" id="fc615779-d495-41fb-8456-1b41ec421b85" name="Changes" comment="change3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency converter/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency converter/src/Main.java" afterDir="false" />
     </list>
@@ -73,7 +73,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708757235003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change3">
+      <option name="closed" value="true" />
+      <created>1708759631036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708759631036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,7 +99,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="change1" />
     <MESSAGE value="change2" />
-    <option name="LAST_COMMIT_MESSAGE" value="change2" />
+    <MESSAGE value="change3" />
+    <option name="LAST_COMMIT_MESSAGE" value="change3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -201,8 +201,8 @@ public class Main {
                 gbp = scanner.nextInt();
 
                 if (choice2 == 1) {
-                    inr = gbp / 83;
-                    System.out.printf("USD : %.2f", inr);
+                    inr = (float) (gbp * 105.71);
+                    System.out.printf("INR : %.2f", inr);
                 }
                 else if (choice2 == 2) {
                     usd =(float) (gbp * 1.27);
@@ -254,7 +254,7 @@ public class Main {
 
                 if (choice2 == 1) {
                    inr = (float) (cad * 61.46);
-                    System.out.printf("USD : %.2f", inr);
+                    System.out.printf("INR : %.2f", inr);
                 }
                 else if (choice2 == 2) {
                 usd = (float) (cad * 0.74);
@@ -306,7 +306,7 @@ public class Main {
 
                 if (choice2 == 1) {
                     inr = (float) (aud * 54.33);
-                    System.out.printf("USD : %.2f", inr);
+                    System.out.printf("INR : %.2f", inr);
                 }
                 else if (choice2 == 2) {
                     usd = (float) (aud * 0.66);
@@ -358,7 +358,7 @@ public class Main {
 
                 if (choice2 == 1) {
                     inr = (float) (jpy * 2.41);
-                    System.out.printf("USD : %.2f", inr);
+                    System.out.printf("INR : %.2f", inr);
                 }
                 else if (choice2 == 2) {
                     usd = (float) (jpy* 0.0066);
@@ -410,7 +410,7 @@ public class Main {
 
                 if (choice2 == 1) {
                 inr = (float)(cny * 11.71) ;
-                    System.out.printf("USD : %.2f", inr);
+                    System.out.printf("INR : %.2f", inr);
                 }
                 else if (choice2 == 2) {
                     usd =(float)(cny * 0.14);
@@ -464,7 +464,7 @@ public class Main {
 
                 if (choice2 == 1) {
                     inr = (float)(chf * 94.31);
-                    System.out.printf("USD : %.2f", inr);
+                    System.out.printf("INR : %.2f", inr);
                 }
                 else  if (choice2 == 2) {
                     usd =(float)(chf *1.14);
@@ -516,7 +516,7 @@ public class Main {
 
                 if (choice2 == 1) {
                     inr = (float) (sgd * 61.72);
-                    System.out.printf("USD : %.2f", inr);
+                    System.out.printf("INR : %.2f", inr);
                 }
                 else if (choice2 == 2) {
                     usd = (float) (sgd * 0.74);
@@ -566,9 +566,9 @@ public class Main {
                 System.out.print("AED : ");
                 aed = scanner.nextInt();
 
-                if (choice2 == 2) {
+                if (choice2 == 1) {
                    inr = (float)(aed * 22.57);
-                    System.out.printf("USD : %.2f", inr);
+                    System.out.printf("INR : %.2f", inr);
                 }
                 else if (choice2 == 2) {
                     usd =(float)(aed * 0.27);
