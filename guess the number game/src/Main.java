@@ -8,7 +8,7 @@ public class Main {
 
 
         System.out.println("\n*************** Welcome to Guess the number game ***************\n");
-        System.out.println("\n********************* Thanks for playing  **********************\n");
+
         Scanner scanner = new Scanner(System.in);
         int count = 1;
         while(true){
@@ -47,6 +47,6 @@ public class Main {
         if(count>5){
             System.out.println("You can do better!");
         }
-        System.out.println("\n***********************  Thanks for playing  ***********************\n");
+        System.out.println("\n********************* Thanks for playing  **********************\n");
     }
 }
