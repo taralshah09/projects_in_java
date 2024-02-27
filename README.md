@@ -4,4 +4,5 @@
 <ol type="number">
 <li>Currency Converter</li>
 <li>Guess the number game</li>
+<li>Cypher encryption project</li>  
 </ol>
