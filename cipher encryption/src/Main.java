@@ -5,7 +5,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("\n*********** Welcome to Cypher Encryption ***********\n");
+        System.out.println("\n*********** Welcome to Cypher Encryption ***********");
+        System.out.println();
 
         System.out.println("How do you want to use our encryptor?\n");
         System.out.println("Press 1 : Normal to Encryption");
